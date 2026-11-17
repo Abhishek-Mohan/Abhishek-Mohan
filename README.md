@@ -7,7 +7,6 @@ I work on **OneLake Security** for Fabric Spark across JVM and native execution,
 ### 🔐 OneLake Security
 - Shipped OneLake row-level and column-level security (RLS/CLS) in Fabric Spark from idea to General Availability
 - Worked with the native-engine team to bring OneLake Security to the Native Execution Engine (Gluten + Velox)
-- Redesigned the shuffle-reuse path at Spark's JVM/native boundary so protected queries return correct results
 - Rolled out previews in stages across 20+ production regions
 
 ### ⚡ Performance engineering
