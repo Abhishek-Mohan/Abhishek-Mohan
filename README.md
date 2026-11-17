@@ -18,6 +18,13 @@ I work on **OneLake Security** for Fabric Spark across JVM and native execution,
 - Built a fully local OneLake Security end-to-end test framework, now being extended to the native engine
 - Built a GitHub Copilot agent skill that scaffolds complete security tests from a single prompt
 
+### 🌐 Open source: [Apache DataFusion Comet](https://github.com/apache/datafusion-comet)
+I contribute to Comet, the Apache Spark accelerator built on DataFusion.
+- [Added a documentation style guide and applied it across the docs](https://github.com/apache/datafusion-comet/pull/7151)
+- [Added a docs-review skill for AI coding agents](https://github.com/apache/datafusion-comet/pull/7153)
+- [Clarified executor container sizing and memory failures](https://github.com/apache/datafusion-comet/pull/7332)
+- [See all my Comet PRs →](https://github.com/apache/datafusion-comet/pulls?q=is%3Apr+author%3AAbhishek-Mohan)
+
 ### 🧰 Tech
 **Languages:** Scala · Java · C++ · Python · SQL
 
