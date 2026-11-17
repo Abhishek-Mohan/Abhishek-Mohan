@@ -1,6 +1,12 @@
 # Hi, I'm Abhishek 👋
 
-Software Engineer II at **Microsoft** on the **Fabric Spark Runtime** team, building the Apache Spark runtime behind Microsoft Fabric and Azure Synapse across JVM and native execution (Apache Gluten, Velox). Based in Seattle, WA.
+Software Engineer II at **Microsoft** on the Apache Spark runtime that powers **Microsoft Fabric** and **Azure Synapse Spark**, used at enterprise scale by big and small customers alike. Based in Seattle, WA.
+
+### 💡 What I care about
+- Distributed-systems correctness
+- Security as a first-class engineering concern
+- Test infrastructure that catches problems early
+- AI-assisted engineering
 
 ### ⚙️ What I've worked on
 - **OneLake Security:** row- and column-level security (RLS/CLS) in Fabric Spark, private preview to GA
@@ -18,7 +24,7 @@ Software Engineer II at **Microsoft** on the **Fabric Spark Runtime** team, buil
 - [All my Comet PRs →](https://github.com/apache/datafusion-comet/pulls?q=is%3Apr+author%3AAbhishek-Mohan)
 
 ### 🧰 Tech
-- **Languages:** Scala · Java · C++ · Python · SQL
+- **Languages:** Scala · Java · Python (C++/JNI through Spark logging and runtime integrations)
 - **Systems:** Apache Spark · Apache Gluten · Velox · Apache Hadoop · Docker · Linux · Kusto · TPC-DS
 
 ### 🎓 Education
