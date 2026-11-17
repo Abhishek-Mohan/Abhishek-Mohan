@@ -1,25 +1,20 @@
 # Hi, I'm Abhishek 👋
 
-**Software Engineer II at Microsoft** on the Apache Spark Runtime team for **Microsoft Fabric** and **Azure Synapse**. Based in Seattle, WA.
+**Software Engineer II at Microsoft** on the **Fabric Spark Runtime** team, building and shipping the Apache Spark runtime behind **Microsoft Fabric** Data Engineering and **Azure Synapse** Spark, across both the JVM and the Native Execution Engine (Apache Gluten + Velox). Based in Seattle, WA.
 
-I work on **OneLake Security** for Fabric Spark across JVM and native execution, including the **Apache Gluten** and **Velox** native engine. I also co-lead **Kandor**, the standard local development environment for Fabric Spark runtime engineers.
+### ⚙️ Fabric Spark Runtime
+- **OneLake Security:** Spark runtime work for row- and column-level security (RLS/CLS), from private preview to general availability. Owned the Spark-side GA validation strategy (20+ integration suites), brought it to the Native Execution Engine with the native-engine team, and rolled out previews across 20+ production regions
+- **Performance:** Built an automated daily 1 TB TPC-DS benchmark pipeline for RLS/CLS across native and JVM execution on Spark 3.5 and 4.1
+- **High Concurrency:** Designed and shipped the Livy APIs for Fabric High Concurrency mode for Spark notebooks and pipelines
+- **Telemetry:** Owned the team's Spark telemetry library for ~4 years (PII/credential scrubbing, error classification, structured logging), then integrated its C++/JNI successor for JVM and native libraries
+- **Security response:** Drove the Log4j vulnerability response across all production Spark runtime images and shipped a build-time scanner with auto-patching for future CVEs
 
-### 🔐 OneLake Security
-- Shipped OneLake row-level and column-level security (RLS/CLS) in Fabric Spark from idea to General Availability
-- Worked with the native-engine team to bring OneLake Security to the Native Execution Engine (Gluten + Velox)
-- Rolled out previews in stages across 20+ production regions
+### 🛠️ Developer platform
+- Co-lead the team's containerized Apache Spark dev environment, now the standard local-test platform for Fabric Spark, used by developers and AI coding agents
+- Contributed build infrastructure, mocked control-plane APIs, PySpark / Hadoop / catalog integration, and end-to-end RLS/CLS testing
 
-### ⚡ Performance engineering
-- Automated daily 1 TB TPC-DS benchmarks for RLS/CLS on Spark 3.5 and 4.1, comparing JVM and native execution
-- Made benchmark comparisons more reliable and traced cross-service latency to find bottlenecks in large protected queries
-
-### 🛠️ Developer tooling
-- Co-lead Kandor, a Docker-based environment where developers and AI coding agents can build, debug, and test on complete local Spark clusters
-- Built a fully local OneLake Security end-to-end test framework, now being extended to the native engine
-- Built a GitHub Copilot agent skill that scaffolds complete security tests from a single prompt
-
-### 🌐 Open source: [Apache DataFusion Comet](https://github.com/apache/datafusion-comet)
-I contribute to Comet, the Apache Spark accelerator built on DataFusion.
+### 🌐 Getting into open source: [Apache DataFusion Comet](https://github.com/apache/datafusion-comet)
+I'm starting to contribute to Comet, the Apache Spark accelerator built on DataFusion. My first PRs:
 - [Added a documentation style guide and applied it across the docs](https://github.com/apache/datafusion-comet/pull/7151)
 - [Added a docs-review skill for AI coding agents](https://github.com/apache/datafusion-comet/pull/7153)
 - [Clarified executor container sizing and memory failures](https://github.com/apache/datafusion-comet/pull/7332)
@@ -28,7 +23,7 @@ I contribute to Comet, the Apache Spark accelerator built on DataFusion.
 ### 🧰 Tech
 **Languages:** Scala · Java · C++ · Python · SQL
 
-**Systems:** Apache Spark · Apache Gluten · Velox · Linux · Docker · Kusto · TPC-DS · CI/CD · GitHub Copilot CLI
+**Systems:** Apache Spark · Apache Gluten · Velox · Hadoop · Linux · Docker · Kusto · TPC-DS · CI/CD · GitHub Copilot CLI
 
 ### 🎓 Education
 B.S. in Computer Science, DigiPen Institute of Technology (2021)
