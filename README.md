@@ -27,4 +27,4 @@ I work on **OneLake Security** for Fabric Spark across JVM and native execution,
 B.S. in Computer Science, DigiPen Institute of Technology (2021)
 
 ### 📫 Contact
-[LinkedIn](https://www.linkedin.com/in/abhishekmohan2) · [abhishek.mohan@live.com](mailto:abhishek.mohan@live.com)
+[LinkedIn](https://www.linkedin.com/in/abhishekmohan2) · [X](https://x.com/AM_AbhiMohan) · [abhishek.mohan@live.com](mailto:abhishek.mohan@live.com)
