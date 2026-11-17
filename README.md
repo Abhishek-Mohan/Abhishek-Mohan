@@ -1,6 +1,6 @@
 # Hi, I'm Abhishek 👋
 
-Software Engineer II at **Microsoft** on the Apache Spark runtime that powers **Microsoft Fabric** and **Azure Synapse Spark**, used at enterprise scale by big and small customers alike. Based in Seattle, WA.
+Software Engineer II at **Microsoft** on the Apache Spark runtime that powers **Microsoft Fabric** and **Azure Synapse Spark**, used at enterprise scale by customers of every size. Based in Seattle, WA.
 
 ### 💡 What I care about
 - Distributed-systems correctness
@@ -24,7 +24,8 @@ Software Engineer II at **Microsoft** on the Apache Spark runtime that powers **
 - [All my Comet PRs →](https://github.com/apache/datafusion-comet/pulls?q=is%3Apr+author%3AAbhishek-Mohan)
 
 ### 🧰 Tech
-- **Languages:** Scala · Java · Python (C++/JNI through Spark logging and runtime integrations)
+- **Languages:** Scala · Java · Python
+- **Also:** C++/JNI through Spark logging and runtime integrations
 - **Systems:** Apache Spark · Apache Gluten · Velox · Apache Hadoop · Docker · Linux · Kusto · TPC-DS
 
 ### 🎓 Education
